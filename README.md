@@ -117,9 +117,17 @@ Done: 2 up, 252 down, 2 open ports in 14.3s
 
 ### Evidence screenshots
 
-- Image 1: This screenshot shows the `NO RESPONSE / CLOSED HOSTS` section for a `/24` subnet, where many IP addresses are listed as offline. It demonstrates NetScan's ability to distinguish reachable hosts from devices that do not respond.
-- Image 2: This screenshot shows the `LIVE HOSTS (5)` section, listing several active devices with their discovery method, MAC addresses, and OS guesses. It confirms the scanner can identify live hosts using ARP and ICMP. 
-- Image 3: This screenshot shows the same scan with `--show-down` enabled, revealing live hosts and service detection such as port `53/tcp` with the `domain` service. It provides evidence that NetScan can detect open ports and basic version/banner information.
+- About the image: This screenshot shows the `NO RESPONSE / CLOSED HOSTS` section for a `/24` subnet, where many addresses are listed as offline. It demonstrates NetScan's ability to distinguish reachable hosts from non-responding devices during discovery.
+
+  ![No response or closed hosts scan result](./closed-hosts.png)
+
+- About the image: This screenshot shows the `LIVE HOSTS (5)` section, listing active devices with their discovery method, MAC addresses, and OS guesses. It confirms NetScan can identify online systems and collect useful metadata about each host.
+
+  ![Live hosts scan result](./live-hosts.png)
+
+- About the image: This screenshot shows a port scan on a live host, highlighting open services and banners such as port `53/tcp` with the `domain` service. It demonstrates NetScan's ability to detect open ports and infer running services.
+
+  ![Open ports and service detection](./ports-scan.png)
 
 ---
 
@@ -134,7 +142,7 @@ Done: 2 up, 252 down, 2 open ports in 14.3s
 
 ## ⚠️ Legal disclaimer
 
-This tool is for **educational purposes and authorized security testing only**. Only scan networks and devices that you **own** or have **explicit written permission** to test. The author is not respo[...]
+This tool is for **educational purposes and authorized security testing only**. Only scan networks and devices that you **own** or have **explicit written permission** to test. The author is not responsible for misuse.
 
 ---
 
