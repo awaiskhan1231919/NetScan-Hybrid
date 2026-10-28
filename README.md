@@ -115,6 +115,12 @@ python3 netscan.py 192.168.1.0/24
 Done: 2 up, 252 down, 2 open ports in 14.3s
 ```
 
+### Evidence screenshots
+
+- Image 1: This screenshot shows the `NO RESPONSE / CLOSED HOSTS` section for a `/24` subnet, where many IP addresses are listed as offline. It demonstrates NetScan's ability to distinguish reachable hosts from devices that do not respond.
+- Image 2: This screenshot shows the `LIVE HOSTS (5)` section, listing several active devices with their discovery method, MAC addresses, and OS guesses. It confirms the scanner can identify live hosts using ARP and ICMP. 
+- Image 3: This screenshot shows the same scan with `--show-down` enabled, revealing live hosts and service detection such as port `53/tcp` with the `domain` service. It provides evidence that NetScan can detect open ports and basic version/banner information.
+
 ---
 
 ## ⚙️ How it works
@@ -128,7 +134,7 @@ Done: 2 up, 252 down, 2 open ports in 14.3s
 
 ## ⚠️ Legal disclaimer
 
-This tool is for **educational purposes and authorized security testing only**. Only scan networks and devices that you **own** or have **explicit written permission** to test. The author is not responsible for any misuse or damage caused by this tool.
+This tool is for **educational purposes and authorized security testing only**. Only scan networks and devices that you **own** or have **explicit written permission** to test. The author is not respo[...]
 
 ---
 
