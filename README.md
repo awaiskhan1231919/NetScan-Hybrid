@@ -117,17 +117,17 @@ Done: 2 up, 252 down, 2 open ports in 14.3s
 
 ### Evidence screenshots
 
-- About the image: This screenshot shows the `NO RESPONSE / CLOSED HOSTS` section for a `/24` subnet, where many addresses are listed as offline. It demonstrates NetScan's ability to distinguish reachable hosts from non-responding devices during discovery.
+- About the image: This screenshot shows the `NO RESPONSE / CLOSED HOSTS` section for a `/24` subnet, where many IP addresses are listed as offline. It demonstrates NetScan's ability to distinguish reachable hosts from non-responding devices.
 
-  ![No response or closed hosts scan result](./closed-hosts.png)
+  ![Closed hosts screenshot](./closed-hosts.png)
 
-- About the image: This screenshot shows the `LIVE HOSTS (5)` section, listing active devices with their discovery method, MAC addresses, and OS guesses. It confirms NetScan can identify online systems and collect useful metadata about each host.
+- About the image: This screenshot shows the `LIVE HOSTS` section, listing active devices with their discovery method, MAC address, and OS guess. It confirms NetScan can detect online hosts and gather useful host metadata.
 
-  ![Live hosts scan result](./live-hosts.png)
+  ![Live hosts screenshot](./live-hosts.png)
 
-- About the image: This screenshot shows a port scan on a live host, highlighting open services and banners such as port `53/tcp` with the `domain` service. It demonstrates NetScan's ability to detect open ports and infer running services.
+- About the image: This screenshot shows a live host scan with open ports and detected services. It demonstrates NetScan's ability to find active services such as `53/tcp` and identify what is running.
 
-  ![Open ports and service detection](./ports-scan.png)
+  ![Ports scan screenshot](./ports-scan.png)
 
 ---
 
