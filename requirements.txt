@@ -1,0 +1,18 @@
+# netscan.py requirements
+#
+# Python packages: NONE.
+# netscan.py uses only the Python 3 standard library
+# (asyncio, argparse, ipaddress, socket, ssl, subprocess, ...), so
+# "pip install -r requirements.txt" has nothing to install.
+#
+# Needed on the system (install with your package manager):
+#   python3 >= 3.9      (required)
+#   ping                (required, package: iputils-ping)
+#   nmap                (optional, only for the --nmap option)
+#
+# Debian/Ubuntu/Kali:
+#   sudo apt update && sudo apt install -y python3 iputils-ping nmap
+# Fedora/RHEL:
+#   sudo dnf install -y python3 iputils nmap
+# Arch:
+#   sudo pacman -S python iputils nmap
