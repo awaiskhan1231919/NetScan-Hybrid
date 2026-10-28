@@ -33,8 +33,8 @@ Scan a whole network block and instantly see which devices are **up**, which are
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR-USERNAME/netscan.git
-cd netscan
+git clone https://github.com/awaiskhan1231919/NetScan-Hybrid.git
+cd NetScan-Hybrid
 
 # 2. Install system requirements (Debian / Ubuntu / Kali)
 sudo apt update && sudo apt install -y python3 iputils-ping nmap
